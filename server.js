@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const ANTHROPIC_API_KEY = "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";
+const ANTHROPIC_API_KEY = "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";
 
 const SYSTEM_PROMPT = `You are an epic AI assistant built into a Roblox game. 
 You can write Roblox Lua scripts, create particle effects, lighting, VFX, and help with anything the player asks. Be energetic and awesome!`;
